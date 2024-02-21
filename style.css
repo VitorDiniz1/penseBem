@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', 'sans-serif';
+    background-image: url("fundopensebem.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .titulo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-shadow: 5px 5px 5px #000;
+    color: white;
+    -webkit-text-stroke: 2px black;
+  }
+  
+  h2 {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 35px;
+  }
+  
+  .botaoInicio {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 98%;
+    height: 50px;
+    background-color: gray;
+    box-shadow: 0 0 10px black;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  
+  button {
+    border-radius: 8px;
+    padding: 7px;
+    box-shadow: 0 0 5px black;
+  }
+  
+  button:hover {
+    border-radius: 8px;
+    background-color: red;
+  }
+  
+  .pergunta {
+    padding: 0 20px;
+    height: 50px;
+    text-align: center;
+    margin-top: 63px;
+  
+  }
+  
+  .tentativa {
+    padding: 0 20px;
+    height: 50px;
+    text-align: center;
+    margin-top: 93px;
+  }
+  
+  .opcoes1 {
+    width: 450px;
+    margin: 0 auto;
+    display: grid;
+    padding: 0 20px;
+  }
+  
+  .opcoes1 button:first-child {
+    background-color: #be0e0e;
+    margin: 0 50px;
+  }
+  
+  .opcoes1 button:first-child:hover {
+    background-color: red;
+  }
+  
+  .opcoes1 button:nth-child(2) {
+    background-color: #5454b8;
+    margin: 0 50px;
+  }
+  
+  .opcoes1 button:nth-child(2):hover {
+    background-color: blue;
+  }
+  
+  .opcoes1 button:nth-child(3) {
+    background-color: #baba32;
+    margin-top: 2px;
+    margin: 0 50px;
+  }
+  
+  .opcoes1 button:nth-child(3):hover {
+    background-color: yellow;
+  }
+  
+  .opcoes1 button:last-child {
+    background-color: #76cd76;
+    margin: 0 50px;
+  }
+  
+  .opcoes1 button:last-child:hover {
+    background-color: green;
+  }
+  
+  .btr {
+    text-align: center;
+  }
+  
+  .fim {
+    color: green;
+  }

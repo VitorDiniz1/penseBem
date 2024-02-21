@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Questionário</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+  <h1 class="titulo">Pense Bem</h1>
+    
+    
+      <div class="botaoInicio">
+        <button onclick="iniciar1()">041</button>
+        <button onclick="iniciar2()">042</button>
+        <button onclick="iniciar3()">023</button>
+        <button onclick="iniciar4()">024</button>
+        <button onclick="iniciar5()">025</button>
+      </div>
+  <h1 class="pergunta" id="pergunta"></h1>
+    <h2 class="tentativa" id="visor2"></h2>
+    
+     
+      <div id="opcoes" class="opcoes1">
+        <button id="bta" onclick="jogar('A')">A</button>
+        <button id="btb" onclick="jogar('B')">B</button>
+        <button id="btc" onclick="jogar('C')">C</button>
+        <button id="btd" onclick="jogar('D')">D</button>
+      </div>
+    
+    <h2 id="resultado"></h2>
+    
+      <div id="BotaoReinicio" class= "btr">
+        <button id="btr" onclick="recarregarPagina()">Reiniciar</button>
+      </div>
+<script src="script.js"></script>
+</body>
+</html>
